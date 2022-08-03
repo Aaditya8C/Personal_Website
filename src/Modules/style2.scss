@@ -1,0 +1,157 @@
+.container{
+    .ssc-education{
+        h3{
+            font-weight: bold;
+            font-size: 4.5rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 2px 1px 1px rgba(233, 185, 82, 0.75);
+            margin-top: 80rem;
+            margin-bottom: -150px; 
+            position: relative;
+        }
+        .table{
+            // margin-top: 100px;
+            position: relative;
+            border: .8rem solid rgb(49, 45, 158);
+
+            thead{
+                color:rgb(85, 54, 13);
+                font-weight: bolder;
+                font-size: 2rem;
+            }
+            tbody{
+                font-size: 2rem;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            // tr{
+            //     font-weight: bolder;
+            //     font-family: 'Times New Roman', Times, serif;
+            //     font-size: 20rem;
+
+            //     th{
+            //         font-weight: bold;
+            //     }
+            // }
+            
+        }
+    }
+}
+
+
+//internships
+
+.interns{
+    background-color: rgb(243, 235, 235);
+    margin-top: 20rem;
+    height: 70rem;
+    div{
+        margin-top: .5rem;
+        button{
+            border-radius: 50%;
+            margin-top: 7rem;
+            font-size: 3rem;
+        }
+        h5{
+            
+                margin-top: 2rem;
+                font-weight: bold;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-shadow: 2px 1px 1px rgba(103, 43, 43, 0.75);
+                font-size: 2.4rem;
+                
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 1rem;
+
+        }
+        a{
+            // .btn btn-sucess btn-lg{
+            //     border-radius: 30px;
+            // }
+            .gitButton{
+                border-radius: 3.5rem;
+                color: yellow;
+                background-color: rgb(19, 19, 19);
+                margin-bottom: .1rem;
+                block-size: 4rem;
+                font-weight: bold;
+                margin-top: .5rem;
+                font-size: 1.5rem;
+            }
+            .gitButton:hover{
+                background-color: rgb(29, 216, 19);
+                transition: 0.3s;
+            }
+        }
+        .first-internship{
+            margin-top: .5rem;
+            float: left;
+        }
+        .second-internship{
+            margin-top: .5rem;
+            float: right;
+        }
+    }
+}
+
+
+
+//Footer
+.contact{
+    margin-top: 100rem;
+    footer{
+        
+        div{
+            section{
+                img{
+                    align-items: center;
+                    margin-left: 5em;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+html{
+    /* 1.6rem = 16px;
+    100% = 16px;
+    62.5% = remx;//we need remx as out unit */
+    font-size: 62.5%;
+  }
+  
+
+
+
+@media screen and (min-width:998px) {
+    html{
+      font-size: 50%
+    }
+    
+  }
+@media screen and (max-width:998px) {
+    html{
+      font-size: 40%
+    }
+    
+  }
+  @media screen and (max-width:787px) {
+    html{
+      font-size: 30%;
+    }
+    
+  }
+  @media screen and (max-width:656px) {
+    html{
+      font-size: 25%;
+    }
+    
+  }
+
+
+
+
+

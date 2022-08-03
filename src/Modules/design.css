@@ -1,0 +1,307 @@
+/* .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+
+/* .navbar navbar-expand-lg bg-light{
+
+} */
+
+
+
+
+
+
+/* 
+@media only screen  and (max-width: 700px){
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  .container {
+    padding: 2px 16px;
+    margin-top: -7rem;
+}
+.container2 {
+    padding: 2px 16px;
+}
+
+marquee{
+  font-size: 30rem;
+  color: brown;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+p{
+  font-size: 20px;
+  font-weight: 500;
+}
+li{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.intro{
+    padding-top: 9rem;
+    background-color: rgb(247, 240, 228);
+    height: 40rem;
+}
+.intro h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 8px rgb(212, 226, 242);
+    color: rgb(10, 126, 243);
+}
+h3{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(159, 126, 60, 0.75);
+    color: rgb(150, 99, 32);
+    font-size: 25px;
+}
+.intro .con{
+    max-width: 600px;
+    float: right;
+    margin-top: 7rem;
+    margin-right: 5rem;
+
+}
+.intro img{
+    margin-left: 5rem;
+    margin-right: 20px;
+    float: left;
+    height: 40rem;
+    max-width: 100%;
+
+}
+.intro2{
+    margin-top: 12rem;
+    height: 30rem;
+}
+.intro2 img{
+    width: 40%;
+    height: 40rem;
+    float: right;
+    margin: 5rem;
+}
+.con2{
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 12rem;
+    margin-left: 5rem;
+}
+
+.hobbies img{
+    margin-top: 300px;
+    width: 20%;
+    height: 40rem;
+    float: left;
+    margin-left: 5rem;
+    margin-bottom: 100px;
+}
+.con3{
+    margin-top: 300px;
+    float: right;
+    width: 60%;
+    margin-right: 2rem;
+}
+.hobbies{
+  background-color: rgb(240, 235, 228);
+}
+
+} */
+
+
+
+
+html{
+  /* 1rem = 16px;
+  100% = 16px;
+  62.5% = 10px;//we need 10px as out unit */
+  font-size: 62.5%;
+}
+
+
+.tag{
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.container {
+  padding: .2rem 1.6rem;
+  margin-top: -7rem;
+}
+.container2 {
+  padding: .2rem 1.6rem;
+}
+
+marquee{
+font-size: 3rem;
+color: brown;
+font-weight: bold;
+margin-bottom: 4rem;
+}
+p{
+font-size: 2rem;
+font-weight: 500;
+}
+li{
+font-size: 2rem;
+font-weight: 500;
+}
+
+.intro{
+  padding-top: 9rem;
+  background-color: rgb(247, 240, 228);
+  height: 60rem;
+}
+.intro h2{
+  /* font-weight: bolder; */
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 8px rgb(94, 140, 239);
+  color: rgb(8, 31, 237);
+}
+h3{
+  font-weight: bold;
+  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family:'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px rgba(228, 179, 80, 0.75);
+  color: rgb(210, 123, 10);
+  font-size: 4.5rem;
+}
+.intro .con{
+  max-width: 60rem;
+  /* align-items: center; */
+  /* margin-left: 500px; */
+  /* display:flex; */
+  float: right;
+  margin-top: 7rem;
+  /* margin-right: 2rem; */
+
+}
+.intro img{
+  margin-left: 5rem;
+  /* top: -100rem;
+  float:right;
+  display: flex; */
+  /* width: 30%; */
+  margin-right: 2rem;
+  float: left;
+  height: 35rem;
+  max-height: 100%;
+  max-width: 100%;
+
+}
+.intro2{
+  margin-top: 12rem;
+  /* background-color: rgb(242, 240, 232); */
+  height: 40rem;
+}
+.intro2 img{
+  width: 40%;
+  height: 40rem;
+  float: right;
+  margin: 5rem;
+  /* max-width: 100%; */
+}
+.con2{
+  width: 50rem;
+  float: left;
+  margin-right: 5rem;
+  margin-top: 12rem;
+  margin-left: 5rem;
+}
+
+.hobbies img{
+  margin-top: 30rem;
+  width: 20%;
+  height: 40rem;
+  float: left;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+  /* max-width: 100%; */
+}
+.con3{
+  margin-top: 30rem;
+  float: right;
+  width: 60%;
+  margin-right: 2rem;
+}
+.hobbies{
+background-color: rgb(240, 235, 228);
+/* height: 50rem; */
+}
+.resume button{
+  border-radius: 3.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 10px rgb(160, 53, 7); */
+  margin-top: 2rem;
+}
+.resume button:hover{
+  background-color: rgb(231, 227, 4);
+  transition: 0.3s;
+}
+
+@media screen and (min-width:998px) {
+  html{
+    font-size: 60%;
+  }
+  
+}
+@media screen and (max-width:998px) {
+  html{
+    font-size: 50%;
+  }
+  
+}
+@media screen and (max-width:787px) {
+  html{
+    font-size: 40%;
+  }
+  
+}
+@media screen and (max-width:656px) {
+  html{
+    font-size: 30%;
+  }
+  
+}
+
+
+
+
+
+
+/* @media screen and (min-width:300px) and (max-width:600px) {
+
+  .section{
+    max-width: 100%;
+  }
+  .con{
+    max-width: 100%;
+  }
+  img{
+    max-width: 100%;
+  }
+}  */
+
+/* @media screen and (max-width:1100px) {
+  .nav-item{
+    font-size: 50px;
+    color: red;
+  }
+} */
+
+
+
+
