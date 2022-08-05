@@ -6,7 +6,7 @@ import slide from './slide';
 
 export default function Header() {
 let style = {
-    color : "black",
+    color : "White",
     marginLeft: "20px",
     fontSize : "20px",
     fontFamily: "'Times New Roman', Times, serif",
@@ -21,10 +21,10 @@ let style = {
 
 
 
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg bg-dark">
     {/* <nav class="navbar"> */}
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" style={{fontFamily:"'Times New Roman', Times, serif",fontWeight:"bold",fontSize:"25px",color:"purple"}}>
+        <a class="navbar-brand" href="#" style={{fontFamily:"'Times New Roman', Times, serif",fontWeight:"bold",fontSize:"25px",color:"Yellow"}}>
           Aaditya Padte
         </a>
         <button
