@@ -30,7 +30,7 @@ export default function Body() {
 
 
           <div className="resume">
-          <a href="https://doc-0g-04-apps-viewer.googleusercontent.com/viewer/secure/pdf/qas1o9ivqo01mh7mv1ulvu3d4s8oldfa/5orlq12nnbrueblakgcg5dm6fhbc14qo/1659292425000/drive/04566479739226496215/ACFrOgC2CJGC7KEjBWKQLFoOzXgtCqaIyw0P624Ma1gSu5zHocrgGZeGSJ26ZlS2-kAs3jhT0Z42hzump0zyQ6R8vnialUxCirIuty_8l91gwnijvNhGJpZjg43JbnvfIsVKVnIw9utoFwLyg7Lc?print=true&nonce=8tj8drdlffqsm&user=04566479739226496215&hash=870g995l5hi9h1pkqf3c77do76qp9rul">
+          <a href="https://drive.google.com/drive/folders/13UlTS7zmQ9QC5bgRgF-bLAjHPcOXbQZn">
               <button className="btn btn-dark btn-lg">
                 Download Resume
               </button>
