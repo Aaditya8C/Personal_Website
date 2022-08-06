@@ -1,17 +1,17 @@
 import './App.css';
-import Header from './Modules/Header.js';
-import Body from './Modules/Body.js';
-import Education from './Modules/Education.js';
-import Projects from './Modules/Projects';
-import Footer from './Modules/Footer';
-import Internships from './Modules/Internships';
+import Header from './Modules/JS/Header.js';
+import Body from './Modules/JS/Body.js';
+import Education from './Modules/JS/Education.js';
+import Projects from './Modules/JS/Projects';
+import Footer from './Modules/JS/Footer';
+import Internships from './Modules/JS/Internships';
 
 
 function App() {
   return (
 
     <>
-    <div className="mainContent">
+    <div className="container">
       <Header />
       <Body />
       <Education />

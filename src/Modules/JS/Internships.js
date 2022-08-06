@@ -1,12 +1,14 @@
 import React from 'react'
-import './style2.scss';
+import '../CSS/style2.scss'
 
 export default function Internships() {
   return (
+   
     <div className="interns">
-    <div className="container">
-        
+         {/* <div className="container"> */}
         <h3>Work Experience</h3>
+
+        
             <div className="first-internship">
                 <button className="btn btn-dark btn-lg" disabled>
                     07/22
@@ -40,6 +42,6 @@ export default function Internships() {
                 <p>Mode: Online/Remote</p>
             </div>
         </div>
-    </div>
+    // </div>
   )
 }

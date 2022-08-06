@@ -1,5 +1,5 @@
-.container{
     .ssc-education{
+        margin-top: 20rem;
         h3{
             font-weight: bold;
             font-size: 4.5rem;
@@ -23,30 +23,25 @@
                 font-size: 3rem;
                 font-family: 'Times New Roman', Times, serif;
             }
-
-            // tr{
-            //     font-weight: bolder;
-            //     font-family: 'Times New Roman', Times, serif;
-            //     font-size: 20rem;
-
-            //     th{
-            //         font-weight: bold;
-            //     }
-            // }
-            
         }
     }
-}
+
+
+
 
 
 //internships
 
 .interns{
+    width: 200rem;
     background-color: rgb(243, 235, 235);
     margin-top: 20rem;
     height: 70rem;
-    div{
-        margin-top: .5rem;
+    margin-top: 20rem;
+    display: flex;
+    
+   
+        
         button{
             border-radius: 50%;
             margin-top: 7rem;
@@ -57,7 +52,7 @@
                 margin-top: 2rem;
                 font-weight: bold;
                 font-family: Georgia, 'Times New Roman', Times, serif;
-                text-shadow: 2px 1px 1px rgba(103, 43, 43, 0.75);
+                text-shadow: 2px 1px 8px rgba(103, 43, 43, 0.75);
                 font-size: 2.4rem;
                 
         }
@@ -67,9 +62,6 @@
 
         }
         a{
-            // .btn btn-sucess btn-lg{
-            //     border-radius: 30px;
-            // }
             .gitButton{
                 border-radius: 3.5rem;
                 color: yellow;
@@ -86,21 +78,24 @@
             }
         }
         .first-internship{
-            margin-top: .5rem;
-            float: left;
+            margin-top: 4rem;
+            flex: 1.5;
         }
         .second-internship{
-            margin-top: .5rem;
-            float: right;
+            margin-top: 4rem;
+            flex: 1;
         }
     }
-}
+
 
 
 
 //Footer
 .contact{
+    width: 200rem;
     margin-top: 100rem;
+    bottom: 0;
+    max-height: 140rem;
     footer{
         
         div{
@@ -130,6 +125,9 @@ html{
     html{
       font-size: 50%
     }
+    .ssc-education{
+        width: 210rem;
+    }
     
   }
 @media screen and (max-width:998px) {
@@ -140,13 +138,13 @@ html{
   }
   @media screen and (max-width:787px) {
     html{
-      font-size: 30%;
+      font-size: 35%;
     }
     
   }
-  @media screen and (max-width:656px) {
+  @media screen and (max-width:590px) {
     html{
-      font-size: 25%;
+      font-size: 20%;
     }
     
   }

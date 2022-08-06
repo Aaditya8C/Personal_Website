@@ -1,120 +1,10 @@
-/* .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+
+
+
+/* .navbar navbar-expand-lg bg-dark{
+  width: 300rem;
 } */
-
-
-/* .navbar navbar-expand-lg bg-light{
-
-} */
-
-
-
-
-
-
-/* 
-@media only screen  and (max-width: 700px){
-  
-  html{
-    scroll-behavior: smooth;
-  }
-  .container {
-    padding: 2px 16px;
-    margin-top: -7rem;
-}
-.container2 {
-    padding: 2px 16px;
-}
-
-marquee{
-  font-size: 30rem;
-  color: brown;
-  font-weight: bold;
-  margin-bottom: 4rem;
-}
-p{
-  font-size: 20px;
-  font-weight: 500;
-}
-li{
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.intro{
-    padding-top: 9rem;
-    background-color: rgb(247, 240, 228);
-    height: 40rem;
-}
-.intro h2{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    text-shadow: 2px 2px 8px rgb(212, 226, 242);
-    color: rgb(10, 126, 243);
-}
-h3{
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 2px 2px 4px rgba(159, 126, 60, 0.75);
-    color: rgb(150, 99, 32);
-    font-size: 25px;
-}
-.intro .con{
-    max-width: 600px;
-    float: right;
-    margin-top: 7rem;
-    margin-right: 5rem;
-
-}
-.intro img{
-    margin-left: 5rem;
-    margin-right: 20px;
-    float: left;
-    height: 40rem;
-    max-width: 100%;
-
-}
-.intro2{
-    margin-top: 12rem;
-    height: 30rem;
-}
-.intro2 img{
-    width: 40%;
-    height: 40rem;
-    float: right;
-    margin: 5rem;
-}
-.con2{
-    width: 500px;
-    float: left;
-    margin-right: 50px;
-    margin-top: 12rem;
-    margin-left: 5rem;
-}
-
-.hobbies img{
-    margin-top: 300px;
-    width: 20%;
-    height: 40rem;
-    float: left;
-    margin-left: 5rem;
-    margin-bottom: 100px;
-}
-.con3{
-    margin-top: 300px;
-    float: right;
-    width: 60%;
-    margin-right: 2rem;
-}
-.hobbies{
-  background-color: rgb(240, 235, 228);
-}
-
-} */
-
-
-
-
 html{
   /* 1rem = 16px;
   100% = 16px;
@@ -159,7 +49,8 @@ font-weight: 500;
 .intro{
   padding-top: 9rem;
   background-color: rgb(247, 240, 228);
-  height: 60rem;
+  height: 100rem;
+  /* width: 200rem; */
 }
 .intro h2{
   /* font-weight: bolder; */
@@ -167,7 +58,7 @@ font-weight: 500;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 5rem;
   font-weight: bold;
-  text-shadow: 2px 2px 13px rgb(81, 75, 54);
+  text-shadow: 2px 1px 15px rgb(81, 75, 54);
   color: rgb(62, 45, 16);
   
 }
@@ -190,22 +81,25 @@ h3{
 
 }
 .intro img{
-  margin-left: 5rem;
+  margin-left: 20rem;
   /* top: -100rem;
   float:right;
   display: flex; */
   /* width: 30%; */
   margin-right: 2rem;
   float: left;
-  height: 35rem;
+  height: 80rem;
   max-height: 100%;
   max-width: 100%;
+  background-color:rgb(247, 240, 228) ;
+  background-image: none;
 
 }
 .intro2{
   margin-top: 12rem;
   /* background-color: rgb(242, 240, 232); */
   height: 40rem;
+  width: 200rem;
 }
 .intro2 img{
   width: 40%;
@@ -239,6 +133,7 @@ h3{
 }
 .hobbies{
 background-color: rgb(240, 235, 228);
+width: 200rem;
 /* height: 50rem; */
 }
 .resume button{
@@ -251,7 +146,7 @@ background-color: rgb(240, 235, 228);
   font-size: 2rem;
 }
 .resume button:hover{
-  background-color: rgb(231, 227, 4);
+  background-color: rgb(233, 148, 44);
   transition: 0.3s;
 }
 
@@ -259,6 +154,9 @@ background-color: rgb(240, 235, 228);
   html{
     font-size: 65%;
   }
+  /* .container{
+    width: 210rem;
+  } */
   
 }
 @media screen and (max-width:998px) {
@@ -271,9 +169,12 @@ background-color: rgb(240, 235, 228);
   html{
     font-size: 50%;
   }
+  .intro{
+    width: 250rem;
+  }
   
 }
-@media screen and (max-width:656px) {
+@media screen and (max-width:590px) {
   html{
     font-size: 40%;
   }
@@ -285,25 +186,6 @@ background-color: rgb(240, 235, 228);
 
 
 
-/* @media screen and (min-width:300px) and (max-width:600px) {
-
-  .section{
-    max-width: 100%;
-  }
-  .con{
-    max-width: 100%;
-  }
-  img{
-    max-width: 100%;
-  }
-}  */
-
-/* @media screen and (max-width:1100px) {
-  .nav-item{
-    font-size: 50px;
-    color: red;
-  }
-} */
 
 
 

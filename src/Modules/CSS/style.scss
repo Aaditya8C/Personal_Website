@@ -1,0 +1,213 @@
+.section{
+  margin-top: 35rem;
+      .cards{
+      width: 200rem;
+        border: 1.3rem solid rgb(87, 3, 3);
+        border-radius: 4rem;
+        padding: 1.6rem;
+        background-color: rgb(240, 244, 221);
+        .twoCards{
+          // display: flex;
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+          justify-content: space-around;
+          div {
+            div{
+                
+                div{
+                    h5 {
+                        font-weight: bolder;
+                        font-size: 3.5rem;
+                        color: brown;
+                        padding: remx;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        text-shadow: 5px 5px remx rgb(199, 144, 125);
+                    }
+            
+                    p {
+                        width: -moz-fit-content;
+                        font-size: 3rem;
+                        align-items: center;
+                        padding: .5rem;
+                        font-family: 'Times New Roman', Times, serif;
+                        color: rgb(145, 104, 8);
+                        text-shadow: 2px 3px 15px rgb(85, 90, 90);
+                    }
+                }
+            }
+            
+           
+        }
+      
+      
+        .card1 {
+          padding: 1.6rem;
+          box-shadow: 9px 5px 20px #2b1509;
+          // width: 45%;
+          max-width: 80%;
+          // // max-width: 100%;
+          // height: 110rem;
+          // perspective: 1000px;
+          // position: relative;
+          margin-left: 3rem;
+          background-color: rgb(245, 219, 239);
+          margin-top: 5rem;
+          // flex: 1;
+          
+          div{
+      
+            img{
+              cursor: pointer;
+              width: 100%;
+              height: 100%;
+              -webkit-animation: myAnime 5s;
+          }
+          }
+
+          
+      }
+      .card2 {
+          padding: 1.6rem;
+          box-shadow: 9px 5px 20px #290c09;
+          // width: 40%;
+          // // max-width: 100%;
+          height: fit-content;
+          // height: 110rem;
+          // perspective: 1000px;
+          // margin-left: 90rem;
+          // position: relative;
+          top: -110rem;
+          background-color: rgb(196, 244, 211);
+          margin-top: 4rem;
+          // flex: 1;  
+          
+          
+          div{
+            img{
+              cursor: pointer;
+              width: 100%;
+              height: 60rem;
+              -webkit-animation: myAnime 5s;
+            }
+          }
+      }
+      
+      }
+
+
+      .fourCards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        margin-top: 100rem;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+         .card3 {
+            padding: 1.6rem;
+            box-shadow: 9px 5px 20px #2b0808;
+            width: 50rem;
+            // max-width: 100%;
+            height: fit-content;
+            margin-left: 3rem;
+            perspective: 1000px;
+            position: relative;
+            top: -80rem;
+            margin-bottom: -38rem;
+            background-color: rgb(182, 202, 245);
+
+            div{
+              img{
+                cursor: pointer;
+                width: 100%;
+                height: 60rem;
+                -webkit-animation: myAnime 5s;
+              }
+            }
+        }
+        .card4 {
+            padding: 1.6rem;
+            box-shadow: 9px 5px 20px #2b0808;
+            width: 40%;
+            width: 55rem;
+            max-width: 100%;
+            height: fit-content;
+            perspective: 1000px;
+            margin-left: 10rem;
+            position: relative;
+            top: -80rem;
+            margin-bottom: -38rem;
+            background-color: rgb(237, 176, 62);
+
+            div{
+              img{
+                cursor: pointer;
+                width: 100%;
+                height: 60rem;
+                -webkit-animation: myAnime 5s;
+              }
+            }
+        }
+      }
+    }
+    
+      
+    
+
+
+  
+
+    html{
+        /* 1.6rem = 16px;
+        100% = 16px;
+        62.5% = remx;//we need remx as out unit */
+        font-size: 62.5%;
+      }
+      
+
+@keyframes myAnime {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+// @-webkit-keyframes myAnime {
+//   0% { opacity: 0; }
+//   100% { opacity: 1; }
+// }
+
+
+
+    
+    
+    
+    @media screen and (min-width:998px) {
+        html{
+          font-size: 65%;
+        }
+        
+      }
+    @media screen and (max-width:998px) {
+        html{
+          font-size: 55%;
+        }
+        
+      }
+      @media screen and (max-width:787px) {
+        html{
+          font-size: 35%;
+        }
+        
+      }
+      @media screen and (max-width:590px) {
+        html{
+          font-size: 25%;
+        }
+        
+      }
+      
+    
+}
+
+

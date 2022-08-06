@@ -37,3 +37,12 @@
 //       }
 //     }
 //   });
+
+
+// getPro1 = () =>{
+//     location.href = "https://ajp-calculator.netlify.app/";
+// }
+
+// function getPro1(){
+//     location.href = "https://ajp-calculator.netlify.app/";
+// }

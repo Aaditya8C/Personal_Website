@@ -1,9 +1,9 @@
 import React from "react";
-import './style2.scss';
+import '../CSS/style2.scss'
 
 export default function Education() {
   return (
-    <div className="container">
+    // <div className="container">
       <div className="ssc-education">
         {/* <span className="dot">My Education</span> */}
       <h3>My Education</h3>
@@ -32,6 +32,6 @@ export default function Education() {
           </tbody>
         </table>
       </div>
-    </div>
+    // </div>
   );
 }
